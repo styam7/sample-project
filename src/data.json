@@ -1,0 +1,48 @@
+[
+    {
+        "id" : 1,
+        "title": "Aviation Cyber Security",
+        "subTitle": "Aviation Security",
+        "overview": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)",
+        "university" : "Centre of Aviation & Security Studies (CADS)",
+        "objective": [
+            { "id" : 1, "value": "Localte and prioritize cyber risks in aviation business"},
+            { "id" : 2, "value": "Deploy assessment tools specific cyber related risk"},
+            { "id" : 3, "value": "Analyze your's company's cyber risk profile"},
+            { "id" : 4, "value": "recommended risk mitigation processes"},
+            { "id" : 4, "value": "Implement Cyber Security Management System (CSMS)"}  
+        ],
+        "eligibility": [
+            { "id" : 1, "value": "Recommended level is Intermediate"},
+            { "id" : 2, "value": "The recommended level of language proficiency is ICAO Operational level 4 for courses in english or the equivalent of the other languages."}
+        ],
+        "assessment": "Written exam",
+        "days": 3,
+        "mode": "classroom",
+        "startDate": "20-feb-2023",
+        "featured": "true"
+    },
+    {
+        "id" : 2,
+        "title": "Big Data Analytics",
+        "subTitle": "Data Analytics",
+        "overview": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)",
+        "university" : "Indian Institute of Technology kanpur (IITK)",
+        "objective": [
+            { "id" : 1, "value": "Localte and prioritize cyber risks in aviation business"},
+            { "id" : 2, "value": "Deploy assessment tools specific cyber related risk"},
+            { "id" : 3, "value": "Analyze your's company's cyber risk profile"},
+            { "id" : 4, "value": "Recommended risk mitigation processes"},
+            { "id" : 4, "value": "Implement Cyber Security Management System (CSMS)"}  
+        ],
+        "eligibility": [
+            { "id" : 1, "value": "Recommended level is Intermediate"},
+            { "id" : 2, "value": "The recommended level of language proficiency is ICAO Operational level 4 for courses in english or the equivalent of the other languages."}
+        ],
+        "days": 6,
+        "assessment": "Online exam",
+        "mode": "online",
+        "startDate": "28-mmarch-2023",
+        "featured": "flase"
+    }
+]

@@ -1,0 +1,157 @@
+.card {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card-title hr {
+  border-bottom: 3px solid #8b283e;
+  margin-top: 0.5em;
+  width: 65px;
+  opacity: 1;
+}
+
+.card-subtitle {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 13px;
+}
+
+input[type=checkbox] {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.filters div {
+  display: flex;
+  justify-content: space-between;
+  /* grid-template-columns: 20% 80%;
+  align-items: center; */
+}
+
+.course-box {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  font-weight: 700;
+}
+
+.course-box .sorting-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.course-box .sorting-block div {
+  width: 100px;
+}
+
+.course-box .card-title {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.course-box .form-control {
+  border-color: #000000;
+  border-width: 1px;
+}
+
+.course-overview span {
+  font-weight: 700;
+}
+
+.course-overview {
+  font-weight: normal;
+}
+
+.enquiry-block div {
+  display: flex;
+  align-items: center;
+}
+
+.enquiry-block {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  margin-bottom: 0.5em;
+}
+
+.enquiry-block i {
+  font-size: 20px;
+  margin-right: 6px;
+}
+
+.enquiry-block h6 {
+  margin: 0;
+}
+.allcourse{
+  font-weight: 700;
+}
+.filter-modal{
+  display: none;
+}
+
+.enquiry-class button {
+  background-color: #ffffff;
+  font-size: 18px;
+  padding: 0.4em;
+  width: 150px;
+  font-weight: 600;
+}
+
+.accordion-button-custom {
+  padding: 5px 25px ;
+  text-align: center ;
+  border: 1px solid #000000 ;
+  border-radius: 30px ;
+  position: absolute ;
+  bottom: -14px ;
+  left: 39%;
+  font-size: 18px;
+}
+.filter-close{
+  display: none;
+}
+
+@media only screen and (max-width:767px) {
+  .enquiry-block {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .enquiry-block div {
+    margin-bottom: 0.5em;
+  }
+
+  .course-box {
+    grid-template-columns: 50% 50%;
+  }
+  .allcourse{
+    display: none;
+  }
+  .filter-modal{
+    display: block;
+  }
+  .filter-container{
+    position: absolute ;
+    top: 15% ;
+    z-index: 2;
+    display: none;
+  }
+  .main-content{
+    z-index: 1;
+  }
+  .accordion-button-custom {
+    left: 30%;
+  }
+  .filter-close{
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+  }
+  .filter-mobile input{
+    padding: 10px 15px;
+    background-color: white;
+  }
+}
